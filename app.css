@@ -1,0 +1,43 @@
+* {
+  font-family: monospace;
+  box-sizing: border-box;
+}
+
+input {
+  padding: 5px;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  border: 1px solid #AAA;
+  color: #AAA;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.selected {
+  border: 2px solid black;
+}
+
+.selected.stopped {
+  border: 2px solid red;
+  color: red;
+}
+
+.selected.opened {
+  border: 2px solid green;
+  color: green;
+}
+
+.floor button {
+  float: right;
+}
+
+p span {
+  padding: 3px;
+}

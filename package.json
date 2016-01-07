@@ -1,0 +1,34 @@
+{
+  "name": "zendesk-elevator",
+  "version": "1.0.0",
+  "description": "A simple elevator implemented using AngularJS",
+  "main": " ",
+  "devDependencies": {
+    "http-server": "^0.6.1",
+    "jasmine-core": "^2.3.4",
+    "karma": "~0.12",
+    "karma-chrome-launcher": "^0.1.12",
+    "karma-firefox-launcher": "^0.1.6",
+    "karma-jasmine": "^0.3.5",
+    "karma-junit-reporter": "^0.2.2",
+    "shelljs": "^0.2.6"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 8000 -c-1",
+
+    "pretest": "npm install",
+    "test": "karma start karma.conf.js",
+    "test-single-run": "karma start karma.conf.js  --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugomarisco/upgraded-garbanzo.git"
+  },
+  "author": "Hugo Marisco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hugomarisco/upgraded-garbanzo/issues"
+  },
+  "homepage": "https://github.com/hugomarisco/upgraded-garbanzo#readme"
+}
